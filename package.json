@@ -1,0 +1,37 @@
+{
+  "name": "bb16-schemer",
+  "version": "0.1.0",
+  "description": "BB16-Schemer is a bb16 wrapper to manage a group of template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloisdg/bb16-schemer.git"
+  },
+  "keywords": [
+    "bb16",
+    "base16",
+    "base16-builder",
+    "schemer"
+  ],
+  "author": {
+    "name": "Alois de Gouvello",
+    "email": "aloisdg@gmail.com",
+    "url": "https://github.com/aloisdg"
+  },
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/aloisdg/bb16-schemer/issues"
+  },
+  "homepage": "https://github.com/aloisdg/bb16-schemer#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
