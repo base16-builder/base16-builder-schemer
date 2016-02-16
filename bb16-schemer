@@ -21,8 +21,7 @@ function parse_yaml {
 
 eval "$(parse_yaml "$1")"
 
-readarray -t grepped < <(compgen -A variable | grep "templates_")
-for item in "${grepped[@]}" ; do
+for item in "${!templates_@}"; do
 	template=${item##*_}
 	path=${!item}
 	echo "We are writing ${template} into ${path}" # add a verbose mode
