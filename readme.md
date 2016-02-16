@@ -4,7 +4,7 @@ BB16-Schemer is a bb16 wrapper to manage a group of template
 
 ## Motivation
 
-This project followed an idea I got for base16-builder. You can read the whold discussion at this [base16-builder's issue](https://github.com/alexbooker/base16-builder/issues/20).
+This project followed an idea I got for base16-builder. You can read the whole discussion at this [base16-builder's issue](https://github.com/alexbooker/base16-builder/issues/20).
 
 ## Caveas
 
